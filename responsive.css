@@ -100,6 +100,11 @@
         margin-top: 12px;
     }
 
+    .tablet__navbar-link.btn-schedule:hover {
+        background-color: #DC4F72;
+        color: #fff;
+    }
+
     .tablet__navbar-link i {
         font-size: 9px;
     }
@@ -337,6 +342,10 @@
 
     .client__company-item {
         padding: 0;
+    }
+
+    .footer__left {
+        flex-direction: column;
     }
 }
 
