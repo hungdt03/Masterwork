@@ -347,6 +347,10 @@
     .footer__left {
         flex-direction: column;
     }
+
+    .footer__left-item {
+        width: 100%;
+    }
 }
 
 /* Tablet */
