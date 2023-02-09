@@ -3,6 +3,10 @@
     --height-header: 90px;
 }
 
+#app {
+    overflow: hidden;
+}
+
 #header {
     height: var(--height-header);
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
@@ -12,6 +16,10 @@
     right: 0;
     z-index: 100;
     background-color: #fff;
+}
+
+.header__wrapper {
+    height: 100%;
 }
 
 .header__logo-wrapper {
@@ -24,8 +32,8 @@
 
 .header__inner {
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
+    height: 100%;
+    justify-content: space-between;
 }
 
 .header__logo-wrapper:hover {
@@ -606,6 +614,8 @@
 .project__tabs-header {
    
     margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .project__tabs-header-item  {
@@ -620,7 +630,7 @@
 
 .project__tabs-content {
     margin: 20px 0;
-    padding: 15px;
+    padding: 15px 0;
     display: none;
 }
 

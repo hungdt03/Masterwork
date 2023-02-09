@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
     <title>Masterwork</title>
 </head>
 <body>
     <div id="app">
         <header id="header">
-            <div class="container">
+            <div class="container header__wrapper">
                 <div class="header__inner">
                     <div class="header__logo">
                         <a class="header__logo-wrapper">
@@ -46,6 +47,38 @@
                             </li>
                         </ul>
                     </div>
+
+                    <div class="tablet__menu-navbar">
+                        <ul class="tablet__navbar-list">
+                            <li class="tablet__navbar-item">
+                                <a href="" class="tablet__navbar-link tablet__navbar-link--active">Home</a>
+                            </li>
+                            <li class="tablet__navbar-item">
+                                <a href="" class="tablet__navbar-link">About</a>
+                            </li>
+                            <li class="tablet__navbar-item">
+                                <a href="" class="tablet__navbar-link">Services</a>
+                            </li>
+                            <li class="tablet__navbar-item">
+                                <a href="" class="tablet__navbar-link">Pages
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li class="tablet__navbar-item">
+                                <a href="" class="tablet__navbar-link">Contact</a>
+                            </li>
+                            <li class="tablet__navbar-item">
+                                <a href="" class="tablet__navbar-link btn-schedule">SCHEDULE A DEMO</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tablet__menu-icon">
+                        <i class="fa-solid fa-bars tablet__menu-icon--bar"></i>
+                        <i class="fa-solid fa-xmark tablet__menu-icon--close hide"></i>
+                    </div>
+
+            
                 </div>
             </div>
         </header>
@@ -73,7 +106,7 @@
             </div>
             
             <div class="section__business">
-                <div class="business__header">
+                <div class="business__header container">
                     <h3 class="business__header-sub-title">WHY CHOOSE US</h3>
                     <h1 class="business__header-title">Tools for business startup to professional</h1>
                     <p class="business__header-desc">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
@@ -81,21 +114,21 @@
 
                 <div class="container">
                     <div class="row business__wrapper">
-                        <div class="business__item col col-lg-4">
+                        <div class="business__item col col-lg-4 col-md-6">
                             <a href="" class="business__item-inner">
                                 <img src="./img/s1.png" alt="" class="business__item-img">
                                 <h3 class="business__item-title">Interactive</h3>
                                 <p class="business__item-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, saepe atque nam voluptatibus blanditiis optio?</p>
                             </a>
                         </div>
-                        <div class="business__item col col-lg-4">
+                        <div class="business__item col col-lg-4 col-md-6">
                             <a href="" class="business__item-inner">
                                 <img src="./img/s2.png" alt="" class="business__item-img">
                                 <h3 class="business__item-title">Business</h3>
                                 <p class="business__item-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, saepe atque nam voluptatibus blanditiis optio?</p>
                             </a>
                         </div>
-                        <div class="business__item col col-lg-4">
+                        <div class="business__item col col-lg-4 col-md-12">
                             <a href="" class="business__item-inner">
                                 <img src="./img/s3.png" alt="" class="business__item-img">
                                 <h3 class="business__item-title">Inspiration</h3>
@@ -109,34 +142,34 @@
             <div class="section__about">
                 <div class="about__content container">
                     <div class="row about__wrapper">
-                        <div class="about__left col col-lg-6">
+                        <div class="about__left col col-lg-6 col-sm-12">
                             <h5 class="about__left-sub-title">ABOUT OUR COMPANY</h5>
                             <h2 class="about__left-title">The Best Choice For Your Successful Business!</h2>
                             <p class="about__left-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
                             <button class="about__left-btn">READ MORE</button>
                         </div>
 
-                        <div class="about__right col col-lg-6">
+                        <div class="about__right col col-lg-6 col-sm-12">
                             <img src="./img/about.jpg" alt="" class="about__right-img">
                         </div>
                     </div>
 
                     <div class="about__numbers row">
-                        <div class="about__number-item col col-lg-4">
+                        <div class="about__number-item col col-lg-4 col-md-6 col-sm-12">
                             <div class="about__number-item-inner">
                                 <h4 class="about__number-title">Happy Customers</h4>
                                 <p class="about__number-number">10458</p>
                                 <p class="about__number-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
                             </div>   
                         </div>
-                        <div class="about__number-item col col-lg-4">
+                        <div class="about__number-item col col-lg-4 col-md-6 col-sm-12">
                             <div class="about__number-item-inner">
                                 <h4 class="about__number-title">Winning Awards</h4>
                                 <p class="about__number-number">890</p>
                                 <p class="about__number-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
                             </div>   
                         </div>
-                        <div class="about__number-item col col-lg-4">
+                        <div class="about__number-item col col-lg-4 col-md-6 mt-48-tablet col-sm-12">
                             <div class="about__number-item-inner">
                                 <h4 class="about__number-title">Completed Projects</h4>
                                 <p class="about__number-number">5345</p>
@@ -150,18 +183,18 @@
             <div class="section__thinking">
                 <div class="container">
                     <div class="row thinking__inner">
-                        <div class="thinking__left col col-lg-6">
+                        <div class="thinking__left col col-lg-6 col-sm-12">
                             <h2 class="thinking__left-title">We are true to ourselves, and commit to always perform at our best.</h2>
                             <p class="thinking__left-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus atque. Corrupti exercitationem voluptatem ipsum iste consequuntur et vitae voluptas temporibus? Maxime dolores amet voluptatum illo consequatur placeat fugit ducimus.</p>
                             <button class="thinking__btn-read">READ MORE</button>
                         </div>
-                        <div class="thinking__right col col-lg-6"></div>
+                        <div class="thinking__right col col-lg-6 col-sm-0"></div>
                     </div>
                 </div>
             </div>
 
             <div class="section__solution">
-                <div class="solution__header">
+                <div class="solution__header container">
                     <h5 class="solution__header-sub-title">WE ARE HERE FOR YOU</h5>
                     <h2 class="solution__header-title">Explore Solutions</h2>
                     <p class="solution__header-desc">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
@@ -169,7 +202,7 @@
 
                 <div class="container">
                     <div class="row blog__wrapper">
-                        <div class="blog__item col col-lg-4">
+                        <div class="blog__item col col-lg-4 col-md-6 col-sm-12">
                             <div class="blog__item-inner">
                                 <div class="blog__img">
                                     <a href="" class="blog__img-link">
@@ -199,7 +232,7 @@
 
                            
                         </div>
-                        <div class="blog__item col col-lg-4">
+                        <div class="blog__item col col-lg-4 col-md-6 col-sm-12">
                             <div class="blog__item-inner">
                                 <div class="blog__img">
                                     <a href="" class="blog__img-link">
@@ -229,7 +262,7 @@
 
                            
                         </div>
-                        <div class="blog__item col col-lg-4">
+                        <div class="blog__item col col-lg-4 col-md-6 col-sm-12">
                             <div class="blog__item-inner">
                                 <div class="blog__img">
                                     <a href="" class="blog__img-link">
@@ -272,10 +305,10 @@
                     </div>
 
                     <div class="row faq__content">
-                        <div class="faq__content-left col col-lg-5">
+                        <div class="faq__content-left col col-lg-5 col-md-5 col-sm-12">
                             <img src="./img/women.jpg" alt="" class="faq__content-left-img">
                         </div>
-                        <div class="faq__content-right col col-lg-7">
+                        <div class="faq__content-right col col-lg-7 col-md-7 col-sm-12">
                             <div class="faq__content-right-wrapper">
                                 <ul class="faq__content-right-list">
                                     <li class="faq__content-right-item">
@@ -399,12 +432,84 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div id="accordion">
+
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                  Project One
+                                </a>
+                              </div>
+                              <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body container">
+                                    <div class="project__tabs-content tab-show row">
+                                        <div class="project__tabs-content-item col col-lg-6">
+                                            <h3 class="project__tabs-content-item-title">Why a visual identity system is more memorable</h3>
+                                            <p class="project__tabs-content-item-desc">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                                            <button class="project__tabs-content-item-btn">KNOW MORE</button>
+                                        </div>
+                                        <div class="project__tabs-content-item col col-lg-6">
+                                            <img src="./img/b5.jpg" alt="" class="project__tabs-content-item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                  Project Two
+                                </a>
+                              </div>
+                              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body container">
+                                    <div class="project__tabs-content row tab-show project__tabs-content--second">
+                                        <div class="project__tabs-content-item col col-lg-6">
+                                            <h3 class="project__tabs-content-item-title">Why a visual identity system is more memorable</h3>
+                                            <p class="project__tabs-content-item-desc">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                                            <button class="project__tabs-content-item-btn">KNOW MORE</button>
+                                        </div>
+                                        <div class="project__tabs-content-item col col-lg-6">
+                                            <img src="./img/b4.jpg" alt="" class="project__tabs-content-item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                  Project Three
+                                </a>
+                              </div>
+                              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body container">
+                                    <div class="project__tabs-content row tab-show">
+                                        <div class="project__tabs-content-item col col-lg-6">
+                                            <h3 class="project__tabs-content-item-title">Why a visual identity system is more memorable</h3>
+                                            <p class="project__tabs-content-item-desc">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                                            <button class="project__tabs-content-item-btn">KNOW MORE</button>
+                                        </div>
+                                        <div class="project__tabs-content-item col col-lg-6">
+                                            <img src="./img/b6.jpg" alt="" class="project__tabs-content-item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            
+                          
+                          </div>
                     </div>
                </div>
             </div>
 
             <div class="section__clients">
-                <div class="client__header">
+                <div class="client__header container">
                     <h5 class="client__header-sub-title">OUR CLIENTS TESTIMONIALS</h5>
                     <h2 class="client__header-title">What People Say</h2>
                     <p class="client__header-desc">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
@@ -495,6 +600,100 @@
                         <span class="client__company-dot-item"></span>
                     </span>
                 </div>
+
+                <!-- Carousel -->
+                <div id="demo" class="carousel-tablet carousel slide container" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators carousel-dots">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    </div>
+                
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active client__company-item col col-lg-6">
+                                <div class="client__company-item-inner">
+                                    <div class="client__company-img">
+                                        <img src="./img/team6.jpg" alt="" class="client__company-image">
+                                    
+                                    </div>
+                                    <div class="client__company-info">
+                                        <p class="client__company-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.
+                                        </p>
+                                        <h4 class="client__company-name">Isabella Mia</h4>
+                                        <p class="client__company-sub">FPT Software</p>
+                                        <div class="quote-icon">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                          
+                        </div>
+                        <div class="carousel-item client__company-item col col-lg-6">
+                                <div class="client__company-item-inner">
+                                    <div class="client__company-img">
+                                        <img src="./img/team3.jpg" alt="" class="client__company-image">
+                                        
+                                    </div>
+                                    <div class="client__company-info">
+                                        <p class="client__company-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.
+                                        </p>
+                                        <h4 class="client__company-name">Isabella Mia</h4>
+                                        <p class="client__company-sub">FPT Software</p>
+                                        <div class="quote-icon">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                        <div class="carousel-item client__company-item col col-lg-6">
+                                <div class="client__company-item-inner">
+                                    <div class="client__company-img">
+                                        <img src="./img/t4.jpg" alt="" class="client__company-image">
+                                        
+                                    </div>
+                                    <div class="client__company-info">
+                                        <p class="client__company-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.
+                                        </p>
+                                        <h4 class="client__company-name">Isabella Mia</h4>
+                                        <p class="client__company-sub">FPT Software</p>
+                                        <div class="quote-icon">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                        <div class="carousel-item client__company-item col col-lg-6">
+                          
+                                <div class="client__company-item-inner">
+                                    <div class="client__company-img">
+                                        <img src="./img/t5.jpg" alt="" class="client__company-image">
+                                        
+                                    </div>
+                                    <div class="client__company-info">
+                                        <p class="client__company-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.
+                                        </p>
+                                        <h4 class="client__company-name">Isabella Mia</h4>
+                                        <p class="client__company-sub">FPT Software</p>
+                                        <div class="quote-icon">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                    </div>
+                
+                </div>
             </div>
 
             <div class="section__booking">
@@ -515,7 +714,7 @@
         <footer id="footer">
             <div class="footer__wrapper container">
                 <div class="footer__inner row">
-                    <div class="footer__left col col-lg-6">
+                    <div class="footer__left col col-lg-6 col-md-12">
                         <div class="footer__left-item">
                             <h3 class="footer__left-list-title">Company</h3>
                             <ul class="footer__left-list">
@@ -547,7 +746,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer__right col col-lg-6">
+                    <div class="footer__right col col-lg-6 col-md-12">
                         <h3 class="footer__right-title">Newsletter</h3>
 
                         <div class="footer__right-form">
@@ -650,5 +849,21 @@
         current -= widthSlide;
         sliderMove.style = `transform: translateX(${current}px)`
     }
+
+    const iconBar = document.querySelector('.tablet__menu-icon--bar')
+    const iconClose = document.querySelector('.tablet__menu-icon--close')
+    const tabletMenu = document.querySelector('.tablet__menu-navbar')
+
+    iconBar.addEventListener('click', (e) => {
+        iconBar.classList.add('hide')
+        iconClose.classList.remove('hide')
+        tabletMenu.style = 'height: 285px;'
+    })
+
+    iconClose.addEventListener('click', (e) => {
+        iconClose.classList.add('hide')
+        iconBar.classList.remove('hide')
+        tabletMenu.style = 'height: 0;'
+    })
 </script>
 </html>
