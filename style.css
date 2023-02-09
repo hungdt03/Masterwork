@@ -883,7 +883,14 @@
 
 .footer__left {
     display: flex;
-    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer__left-item {
+    width: 33.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer__left-list-title {
@@ -893,6 +900,7 @@
 
 .footer__left-list-item {
     margin: 10px 0;
+    
     
 }
 
